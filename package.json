@@ -5,6 +5,7 @@
     "main": "index.js",
     "scripts": {
         "dev": "nodemon scr/app.js"
+
     },
     "repository": {
         "type": "git",
