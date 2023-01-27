@@ -1,28 +1,14 @@
 {
-  "name": "crud-nodjs-mysql",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "dev": "nodemon scr/app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Wolganblack/crudnodjs.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Wolganblack/crudnodjs/issues"
-  },
-  "homepage": "https://github.com/Wolganblack/crudnodjs#readme",
-  "dependencies": {
-    "cross-env": "^7.0.3",
-    "ejs": "^3.1.8",
-    "express": "^4.18.2",
-    "express-myconnection": "^1.0.4",
-    "morgan": "^1.10.0",
-    "mysql": "^2.18.1"
-  },
-  "description": ""
+    "dependencies": {
+        "cross-env": "^7.0.3",
+        "ejs": "^3.1.8",
+        "express": "^4.18.2",
+        "express-myconnection": "^1.0.4",
+        "morgan": "^1.10.0",
+        "mysql": "^2.18.1",
+        "package.json": "^2.0.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
 }
