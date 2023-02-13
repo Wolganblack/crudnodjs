@@ -3,8 +3,12 @@ const morgan = require('morgan');
 const app = express();
 const mysql = require('mysql2');
 const myConnection = require('express-myconnection');
+const path = require('path');
 // settings
 app.set('port', process.env.PORT || 3000);
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
+// middlewares
 
 app.use(morgan('dev'));
 
